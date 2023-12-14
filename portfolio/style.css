@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: auto;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(16, 16, 106);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 50px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+    
+}
+
+.firstsection > div {
+    width: 30%;
+     
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    
+}
+
+.leftsection .buttons{
+    padding: 50px 0;
+}
+
+.leftsection .btn{
+    padding:  12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.rightsection img{
+     width: 80%;
+     margin: 50px 0;
+}
+
+.purple {
+  color: rgb(174, 107, 237);  
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(174, 107, 237);
+}
+
+.secondsection {
+    max-width:80vw;
+    margin: auto;
+    height: 70vh;
+}
+
+.secondsection h1{
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color:white ;
+    margin: 0 120px  ;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -22px;
+    left: -9px;
+}
+
+.vertical-title{
+  position: relative;
+  top: 75px;
+  width: 150px; 
+  font-size: 14px; 
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+/* Add styles to the third section */
+.thirdsection {
+    max-width:80vw;
+    margin: auto;
+    height: 45vw;
+}
+
+.thirdsection h1 {
+    font-size: 1.9rem;
+}
+
+
+.platform-ratings {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.platform {
+    text-align: center;
+    padding: 20px;
+}
+
+.platform img {
+    margin-top: 20px;
+    width: 30px;
+    position: relative;
+    top: -22px;
+    left: -9px;
+}
+
+/* Style the technical skills and certifications */
+.technical-skills, .certifications {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.technical-skills h2, .certifications h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Style the lists */
+.technical-skills ul{
+    list-style: circle;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.certifications, .technical-skills ul li{
+    margin: 5px 0;
+    color: #eeeeee;
+    list-style: square;
+    text-decoration: #9c97f1;
+}
+
+.about-me {
+    max-width:80vw;
+    margin: auto;
+    height: 30vw;
+    padding: 20px;
+}
+
+.about-me h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.ab-img {
+    height: 60vh;
+    width: 40vw;
+    overflow: hidden;
+}
+
+.ab-text {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .footer-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer-first h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer .footer-first label {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.footer .footer-first input {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.footer .footer-first textarea {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.footer .footer-first button.send-button {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer .footer-second ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.footer .footer-second ul li {
+    margin: 0 10px;
+}
+
+.footer .footer-second ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .footer-second ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer rights text */
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
